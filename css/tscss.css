@@ -1,0 +1,170 @@
+.navbar{
+	height:100px;
+	position: absolute;
+	top:0;
+	z-index:99;
+	width:100%;
+
+}
+#navbar-top{
+	position: fixed;
+	top:0;
+	width: 100%;
+	z-index:1000;
+	transition: 0.5s;
+}
+.navoptions a{
+	font-size: 20px;
+	text-decoration: none;
+	color:black!important;
+	padding-left: 5%;
+	font-weight: bold;
+}
+.tslogo{
+    width:155px;
+    height:70px;
+}
+.ulclass{
+    padding-right: 5%;
+}
+.homepic{
+    width:100%;
+    height:700px;
+}
+.hometxt{
+    text-align: center;
+    color:white;
+    position: absolute;
+    top:62%;
+    left:7%;
+
+}
+.text1{
+    font-size: 3em;
+    font-family: 'Anton', sans-serif;
+}
+.text2{
+    font-size: 2em;
+    font-family: 'Anton', sans-serif;
+}
+.logosimg{
+    background-color:black;
+    height:400px;
+}
+.gridtxt{
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    padding-top: 3%;
+}
+.grid2{
+    padding-top: 5%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.grid2txt2{
+    padding-top: 5%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.grid2txt3{
+    padding-top: 5%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.grid2txt4{
+    padding-top: 5%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.speakers{
+    padding-top: 5%;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.speakergrid{
+    padding-top: 5%;
+}
+.sbtn{
+    text-align: center;
+    padding-top: 3%;
+}
+.mbtn{
+    text-align: center;
+    border:none;
+    background: none;
+    margin: 2%;
+    font-size: 25px;
+}
+.mbtn:hover{
+    border:2px solid black;
+    transition: 1s;
+}
+.footer{
+    background-color:#7EC8E3;
+}
+footer{
+    padding-top: 5%;
+}
+.speakergrid{
+    padding-top: 5%;
+}
+.speakertxt1{
+    font-size: 25px;
+    font-weight: bold;
+}
+.speakertxt2{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 3%;
+}
+.speakertxt3{
+    padding-top: 3%;
+}
+.tym{
+    font-size: 25px;
+    font-weight: bold;
+}
+.schedulegrid{
+    padding-top: 10%;
+}
+.locationgrid1{
+    padding-top: 10%;
+    text-align: center;
+}
+.ltxt1{
+    padding-top: 2%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.ltxt2{
+    padding-top: 1%;
+    font-size: 20px;
+}
+.maps{
+    text-align: center;
+    padding-top: 5%;
+}
+.maptxt{
+    padding-bottom: 2%;
+    font-weight: bold;
+    font-size: 20px;
+}
+iframe{
+    padding-bottom: 3%;
+}
+@media only screen and (min-device-width : 300px) and (max-device-width : 650px) {
+         .homepic{
+             width:100%;
+             height:500px;
+         }
+         .hometxt{
+             position: absolute;
+             font-size: 16px;
+             font-weight: bold;
+             top:17%;
+             left:2%;
+
+         }
+    }
